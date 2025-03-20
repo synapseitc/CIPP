@@ -1,4 +1,10 @@
+
 {
+  "networking": {
+    "allowedIpRanges": [
+      "43.247.126.46/32"
+    ]
+  },
   "routes": [
     {
       "route": "_next/static/*",
@@ -134,12 +140,5 @@
   },
   "mimeTypes": {
     ".json": "text/json"
-  },
-  {
-  "networking": {
-    "allowedIpRanges": [
-      "43.247.126.46/32"
-    ]
   }
-}
 }
